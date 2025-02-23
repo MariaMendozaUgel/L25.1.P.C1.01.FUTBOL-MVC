@@ -1,5 +1,5 @@
 export default class Cl_mJuego {
-   constructor (resultado) {
+   constructor ({resultado}) {
       this._resultado = +resultado
    }
    set resultado (resultado) {
